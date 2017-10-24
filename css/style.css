@@ -1,1 +1,11 @@
-
+#header {
+    height: 75px;
+    background: #fff;
+    background-size: cover;
+    border-bottom: 5px solid #d71920;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
