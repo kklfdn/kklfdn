@@ -124,3 +124,9 @@ ul, ol, dl {
     list-style: none;
     float: left;
 }
+
+#header .right-side a {
+    margin: 0 0.4em;
+    font-weight: 900;
+    font-size: 1.1em;
+}
