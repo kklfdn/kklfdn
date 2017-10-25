@@ -72,6 +72,15 @@ ul, ol, dl {
     vertical-align: middle;
 }
 
+@media only screen and (min-width: 730px)
+.mobile-show {
+    display: none!important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
 #header a {
     border-bottom: none;
     color: #d71920;
