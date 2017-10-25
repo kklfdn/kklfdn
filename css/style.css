@@ -142,3 +142,13 @@ ul, ol, dl {
     font-weight: 900;
     font-size: 1.1em;
 }
+
+#new-day-for-flavelle {
+    background: #58595c;
+    font-size: 0.8em;
+    color: #d1d3d4;
+    line-height: 1.3em;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 0.2em;
+}
