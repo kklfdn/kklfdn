@@ -72,9 +72,10 @@ ul, ol, dl {
     vertical-align: middle;
 }
 
-@media only screen and (min-width: 730px)
-.mobile-show {
-    display: none!important;
+@media only screen and (min-width: 730px) {
+    .mobile-show {
+      display: none!important;
+    }
 }
 
 .text-center {
@@ -98,20 +99,22 @@ ul, ol, dl {
     width: 16.6667%;
 }
 
-@media only screen and (min-width: 64.063em)
-.column, .columns {
-    position: relative;
-    padding-left: 1em;
-    padding-right: 1em;
-    float: left;
+@media only screen and (min-width: 64.063em) {
+    .column, .columns {
+        position: relative;
+        padding-left: 1em;
+        padding-right: 1em;
+        float: left;
+    }
 }
 
-@media only screen and (min-width: 40.063em)
-.column, .columns {
-    position: relative;
-    padding-left: 0.9375em;
-    padding-right: 0.9375em;
-    float: left;
+@media only screen and (min-width: 40.063em) {
+    .column, .columns {
+        position: relative;
+        padding-left: 0.9375em;
+        padding-right: 0.9375em;
+        float: left;
+    }
 }
 
 .column, .columns {
