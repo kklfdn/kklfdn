@@ -11,6 +11,11 @@ body {
     cursor: default;
 }
 
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
 #header {
     height: 75px;
     background: #fff;
@@ -96,5 +101,11 @@ body {
     padding-left: 0.9375em;
     padding-right: 0.9375em;
     width: 100%;
+    float: left;
+}
+
+#header .left-side ul li {
+    width: 33.33%;
+    list-style: none;
     float: left;
 }
