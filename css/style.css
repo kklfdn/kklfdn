@@ -49,6 +49,15 @@ ul, ol, dl {
     max-width: 75em;
 }
 
+.row:after {
+    clear: both;
+}
+
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+
 #header .left-side {
     padding-left: 0;
     padding-right: 0;
