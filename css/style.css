@@ -148,6 +148,10 @@ ul, ol, dl {
     background-color: #d71920;
 }
 
+#header .home-link:hover div {
+    background-color: #b11116;
+}
+
 #header .middle {
     height: 100%;
     text-align: center;
