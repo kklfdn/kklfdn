@@ -221,3 +221,13 @@ ul, ol, dl {
     margin-right: 15px;
     margin-bottom: 10px;
 }
+
+#new-day-for-flavelle a {
+    color: #fff;
+    padding-left: 0.2em;
+    border-bottom: none;
+}
+
+#new-day-for-flavelle a:hover {
+    color: #a7a9ac;
+}
