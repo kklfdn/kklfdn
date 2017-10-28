@@ -215,7 +215,7 @@ ul, ol, dl {
 /* banner */
 .banner-image {
     height: 400px;
-    background-image: url(/images/king-hero.jpg);
+    background-image: url('/images/king-hero.jpg');
     background-position: top right;
 }
 
