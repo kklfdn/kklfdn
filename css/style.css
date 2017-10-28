@@ -98,15 +98,15 @@ ul, ol, dl {
     padding-top: 4px;
 }
 
-@media only screen and (max-width: 500px) {
-    #header .left-side, #header .right-side {
-        width: 37%;
-    }
-}
-
 @media only screen and (max-width: 730px) {
     #header .left-side, #header .right-side {
         width: 40%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #header .left-side, #header .right-side {
+        width: 37%;
     }
 }
 
@@ -150,15 +150,15 @@ ul, ol, dl {
     width: 16.6667%;
 }
 
-@media only screen and (max-width: 500px) {
-    #header .middle {
-        width: 26%;
-    }
-}
-
 @media only screen and (max-width: 730px) {
     #header .middle {
         width: 20%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #header .middle {
+        width: 26%;
     }
 }
 
