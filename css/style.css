@@ -98,6 +98,12 @@ ul, ol, dl {
     padding-top: 4px;
 }
 
+@media only screen and (max-width: 730px) {
+    #header .left-side, #header .right-side {
+        width: 40%;
+    }
+}
+
 #header .wrapper {
     height: 70px;
     width: 600px;
