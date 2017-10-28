@@ -100,13 +100,13 @@ ul, ol, dl {
 
 @media only screen and (max-width: 730px) {
     #header .left-side, #header .right-side {
-        width: 40%;
+        width: 38%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #header .left-side, #header .right-side {
-        width: 37%;
+        width: 35%;
     }
 }
 
@@ -152,13 +152,13 @@ ul, ol, dl {
 
 @media only screen and (max-width: 730px) {
     #header .middle {
-        width: 20%;
+        width: 22%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #header .middle {
-        width: 26%;
+        width: 28%;
     }
 }
 
