@@ -74,6 +74,21 @@ ul, ol, dl {
     margin: 0;
 }
 
+.header-social {
+    list-style: none;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin-right: 0.5em!important;
+}
+
+@media only screen and (max-width: 940px) {
+    .header-social {
+        display: none;
+    }
+}
+
 #header .left-side {
     padding-left: 0;
     padding-right: 0;
