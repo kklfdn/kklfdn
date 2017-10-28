@@ -83,6 +83,10 @@ ul, ol, dl {
     margin-right: 0.5em!important;
 }
 
+.header-social .facebook, .header-social .twitter {
+    background-color: #a7a9ac;
+}
+
 @media only screen and (max-width: 940px) {
     .header-social {
         display: none;
