@@ -214,6 +214,7 @@ ul, ol, dl {
     }
 }
 
+/* columns */
 .column, .columns {
     position: relative;
     padding-left: 0.9375em;
@@ -226,6 +227,11 @@ ul, ol, dl {
     padding-right: 0.9375em;
     width: 100%;
     float: left;
+}
+
+.main-content-wrapper {
+    background: white;
+    padding: 0 75px 3em;
 }
 
 #header .left-side ul li {
