@@ -301,6 +301,21 @@ ul, ol, dl {
     }
 }
 
+.content-button {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-family: Lato;
+    background: #d71920;
+    color: #fff !important;
+    border: 2px solid #d71920 !important;
+    letter-spacing: -0.02em;
+    padding: 0.4em 0.6em;
+    border-radius: 3px;
+    border-color: #fff;
+    display: inline-block;
+}
+
 /* footer */
 #new-day-for-flavelle {
     background: #58595c;
