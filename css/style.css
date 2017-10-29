@@ -269,6 +269,7 @@ ul, ol, dl {
     }
 }
 
+/* Open Movement in Flavelle */
 #banner-wrapper h1 {
     text-transform: uppercase;
     font-family: oswald;
@@ -280,11 +281,12 @@ ul, ol, dl {
     text-align: center;
     padding: 0.2em;
     /* margin: 0 0 0.5em; */
-    font-weight: bold;
+    font-weight: 400;
 }
 
+/* Be a part of the most... */
 #banner-wrapper h1:first-of-type {
-    font-weight: normal;
+    font-weight: 300;
 }
 
 /* footer */
