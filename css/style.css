@@ -256,10 +256,15 @@ ul, ol, dl {
 #banner-wrapper {
     background-color: #ffffff;
     padding: 22px;
-    margin: 25px auto 0 auto;
+    /* margin: 25px auto 0 auto; */
+    margin: 250px auto 0 auto;
     /* border-radius: 4px; */
     box-shadow: 2px 5px 60px 0px rgba(0, 0, 0, 1);
     max-width: 529px;
+}
+
+@media only screen and (min-width: 730px) {
+    
 }
 
 /* footer */
