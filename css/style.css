@@ -47,6 +47,19 @@ ul, ol, dl {
     font-family: Lato,sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Oswald,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-weight: 400!important;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #d71920;
+    text-rendering: optimizeLegibility;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
 #header {
     height: 75px;
     background: #fff;
