@@ -206,6 +206,21 @@ ul, ol, dl {
     }
 }
 
+/* columns */
+.column, .columns {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    float: left;
+}
+
+.column, .columns {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 100%;
+    float: left;
+}
+
 @media only screen and (min-width: 64.063em) {
     .column, .columns {
         position: relative;
@@ -222,21 +237,6 @@ ul, ol, dl {
         padding-right: 0.9375em;
         float: left;
     }
-}
-
-/* columns */
-.column, .columns {
-    position: relative;
-    padding-left: 0.9375em;
-    padding-right: 0.9375em;
-    float: left;
-}
-
-.column, .columns {
-    padding-left: 0.9375em;
-    padding-right: 0.9375em;
-    width: 100%;
-    float: left;
 }
 
 .main-content-wrapper {
