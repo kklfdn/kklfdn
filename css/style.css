@@ -245,11 +245,12 @@ ul, ol, dl {
     height: 400px;
     background-image: url('/images/king-hero.jpg');
     background-position: top right;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 500px) {
     .banner-image {
-        background-position-x: 40em;
+        /* background-position-x: 40em; */
     }
 }
 
