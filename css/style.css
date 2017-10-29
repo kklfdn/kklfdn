@@ -262,6 +262,7 @@ ul, ol, dl {
     top: 3em;
     /* box-shadow: 2px 5px 60px 0px rgba(0, 0, 0, 1); */
     max-width: 529px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 730px) {
@@ -283,6 +284,7 @@ ul, ol, dl {
     /* margin: 0 0 0.5em; */
     font-weight: 400;
     text-shadow: 2px 5px 60px rgba(0, 0, 0, 1);
+    margin-bottom: 1.25rem;
 }
 
 /* Be a part of the most... */
