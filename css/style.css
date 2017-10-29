@@ -337,6 +337,10 @@ ul, ol, dl {
 }
 
 /* footer */
+footer {
+    background-color: #ffffff;
+}
+
 #new-day-for-flavelle {
     background: #58595c;
     font-size: 0.8em;
@@ -344,7 +348,7 @@ ul, ol, dl {
     line-height: 1.3em;
     padding: 20px 0;
     width: 100%;
-    margin-top: 0.2em;
+    /* margin-top: 0.2em; */
 }
 
 #new-day-for-flavelle > .row {
