@@ -254,13 +254,13 @@ ul, ol, dl {
 }
 
 #banner-wrapper {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 22px;
     /* margin: 25px auto 0 auto; */
     /* border-radius: 4px; */
     position: relative;
     top: 3em;
-    box-shadow: 2px 5px 60px 0px rgba(0, 0, 0, 1);
+    /* box-shadow: 2px 5px 60px 0px rgba(0, 0, 0, 1); */
     max-width: 529px;
 }
 
