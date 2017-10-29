@@ -284,7 +284,6 @@ ul, ol, dl {
     /* margin: 0 0 0.5em; */
     font-weight: 400;
     text-shadow: 2px 5px 60px rgba(0, 0, 0, 1);
-    margin-bottom: 1.25rem;
 }
 
 /* Be a part of the most... */
@@ -301,6 +300,10 @@ ul, ol, dl {
     #banner-wrapper h1:first-of-type {
         font-size: 1.8rem;
     }
+}
+
+#stand-with-king {
+    margin: 1.25rem;
 }
 
 .content-button {
