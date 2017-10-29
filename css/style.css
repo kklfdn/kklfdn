@@ -242,7 +242,7 @@ ul, ol, dl {
 
 /* banner */
 .banner-image {
-    height: 400px;
+    min-height: 400px;
     background-image: url('/images/king-hero.jpg');
     background-position: top right;
     background-size: cover;
@@ -266,8 +266,9 @@ ul, ol, dl {
     text-align: center;
 }
 
-@media only screen and (min-width: 730px) {
+@media only screen and (max-width: 500px) {
     #banner-wrapper {
+        top: 5em;
     }
 }
 
@@ -293,10 +294,6 @@ ul, ol, dl {
     font-size: 2.3rem;
 }
 
-#stand-with-king {
-    margin: 1.25rem;
-}
-
 @media only screen and (max-width: 500px) {
     #banner-wrapper h1 {
         font-size: 2.5rem;
@@ -305,10 +302,10 @@ ul, ol, dl {
     #banner-wrapper h1:first-of-type {
         font-size: 1.8rem;
     }
-    
-    #stand-with-king {
-        margin-top: 6rem;
-    }
+}
+
+#stand-with-king {
+    margin: 1.25rem;
 }
 
 .content-button {
