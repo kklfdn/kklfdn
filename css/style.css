@@ -114,6 +114,10 @@ ul, ol, dl {
     text-align: center;
 }
 
+#header .left-side a:hover>li {
+    background-color:rgba(0,0,0,0.05)
+}
+
 #header .right-side {
     text-align: right;
     padding-right: 90px;
