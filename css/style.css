@@ -340,6 +340,10 @@ ul, ol, dl {
     margin-top: 0.2em;
 }
 
+#new-day-for-flavelle > .row {
+    max-width: 1200px;
+}
+
 .text-left {
     text-align: left !important;
 }
