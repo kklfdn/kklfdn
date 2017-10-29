@@ -316,6 +316,12 @@ ul, ol, dl {
     display: inline-block;
 }
 
+.content-button:hover {
+    background: none;
+    border: 2px solid #d71920 !important;
+    text-shadow: 0px 0px;
+}
+
 /* footer */
 #new-day-for-flavelle {
     background: #58595c;
