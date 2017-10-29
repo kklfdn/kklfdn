@@ -282,6 +282,7 @@ ul, ol, dl {
     padding: 0.2em;
     /* margin: 0 0 0.5em; */
     font-weight: 400;
+    text-shadow: 2px 5px 60px rgba(0, 0, 0, 1);
 }
 
 /* Be a part of the most... */
