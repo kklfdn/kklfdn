@@ -340,6 +340,16 @@ ul, ol, dl {
     margin-top: 0.2em;
 }
 
+.text-left {
+    text-align: left !important;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .medium-2 {
+        width: 16.66667%;
+    }
+}
+
 #new-day-for-flavelle .logo {
     width: 150px;
     margin-right: 15px;
