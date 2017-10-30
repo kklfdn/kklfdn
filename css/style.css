@@ -219,6 +219,16 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* nav button */
+.primary-nav-trigger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    margin: 0!important;
+}
+
 .primary-nav-trigger .menu-icon {
     display: inline-block;
     position: absolute;
