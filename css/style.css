@@ -386,24 +386,11 @@ h1, h2, h3, h4, h5, h6 {
         padding-right: 1em;
         float: left;
     }
-}
-
-@media only screen and (min-width: 40.063em) {
-    .column, .columns {
-        position: relative;
-        padding-left: 0.9375em;
-        padding-right: 0.9375em;
-        float: left;
+      
+    .large-3 {
+        width: 25%;
     }
-}
-
-.main-content-wrapper {
-    background: white;
-    padding: 0 75px 3em;
-}
-
-
-@media only screen and (min-width: 64.063em) {
+    
     .pull-5 {
         position: relative;
         right: 41.66667%;
@@ -418,6 +405,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media only screen and (min-width: 40.063em) {
+    .column, .columns {
+        position: relative;
+        padding-left: 0.9375em;
+        padding-right: 0.9375em;
+        float: left;
+    }
+    
+    .medium-4 {
+        width: 33.33333%;
+    }
+    
+    .medium-6 {
+        width: 50%;
+    }
+    
+    .medium-7 {
+        width: 58.33333%;
+    }
+    
     .pull-5 {
        position: relative;
         right: 41.66667%;
@@ -431,14 +437,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media only screen and (min-width: 40.063em) {
-    .medium-4 {
-        width: 33.33333%;
-    }
-    
-    .medium-7 {
-        width: 58.33333%;
-    }
+.main-content-wrapper {
+    background: white;
+    padding: 0 75px 3em;
 }
 
 #header .left-side ul li {
