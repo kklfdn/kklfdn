@@ -257,7 +257,28 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 75px 3em;
 }
 
+
+@media only screen and (min-width: 64.063em) {
+    .pull-5 {
+        position: relative;
+        right: 41.66667%;
+        left: auto;
+    }
+    
+    .push-8 {
+        position: relative;
+        left: 66.66667%;
+        right: auto;
+    }
+}
+
 @media only screen and (min-width: 40.063em) {
+    .pull-5 {
+       position: relative;
+        right: 41.66667%;
+        left: auto;
+    }
+
     .push-8 {
         position: relative;
         left: 66.66667%;
@@ -268,6 +289,10 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (min-width: 40.063em) {
     .medium-4 {
         width: 33.33333%;
+    }
+    
+    .medium-7 {
+        width: 58.33333%;
     }
 }
 
