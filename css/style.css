@@ -398,6 +398,39 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0px 0px;
 }
 
+/* news feed */
+.home-news-feed {
+    margin-top: 75px;
+}
+
+.home-news-feed .news-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.news-item h3 {
+    font-size: 2em;
+    font-family: Lato;
+    text-transform: none;
+    font-weight: 900!important;
+    color: #d71920;
+    line-height: 1.0em;
+    margin-bottom: 0.2em;
+}
+
+.news-item p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin: 0.6em 0 0.1em;
+}
+
+.news-item .text-link {
+    color: #0babe3;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    border: none;
+}
+
 /* sidebar */
 .sidebar-block {
     margin-top: 75px;
