@@ -297,6 +297,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0!important;
 }
 
+.primary-nav-trigger .menu-icon.is-clicked {
+    background-color: rgba(255, 255, 255, 0);
+}
+
 .primary-nav-trigger .menu-icon {
     display: inline-block;
     position: absolute;
@@ -336,6 +340,28 @@ h1, h2, h3, h4, h5, h6 {
 
 .primary-nav-trigger .menu-icon::after {
     top: 6px;
+}
+
+.primary-nav-trigger .menu-icon.is-clicked::before, .primary-nav-trigger .menu-icon.is-clicked::after {
+    background-color: #d71920;
+}
+
+.primary-nav-trigger .menu-icon.is-clicked::before {
+    top: 0;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.primary-nav-trigger .menu-icon.is-clicked::after {
+    top: 0;
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    transform: rotate(225deg);
 }
 
 /* columns */
