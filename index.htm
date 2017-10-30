@@ -28,6 +28,7 @@
         $(".primary-nav-trigger").click(function() {
           $(".primary-nav").toggleClass("is-visible");
           $(".menu-icon").toggleClass("is-clicked");
+          $("body").toggleClass("overflow-hidden");
         });
       });
     </script>
@@ -57,7 +58,7 @@
                   <a href="/volunteer/" class="volunteer mobile-hide">Volunteer</a>
                   <a href="/donate/" class="donate mobile-hide">Donate</a>
                   <a class="lang-switch" href="/fr/">FR</a>
-		          <a class="primary-nav-trigger" href="#menu-collapse">
+		          <a class="primary-nav-trigger" href="#">
                       <span class="menu-icon">
                       </span>
                   </a>
