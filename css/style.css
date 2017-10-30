@@ -13,6 +13,10 @@ body {
     letter-spacing: -0.03em;
 }
 
+body.overflow-hidden {
+    overflow: hidden;
+}
+
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
