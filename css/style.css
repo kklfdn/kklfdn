@@ -112,7 +112,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-social .facebook, .header-social .twitter {
-    background-color: #a7a9ac;
+    /* background-color: #a7a9ac; */
+    width: 30px;
+    height: 30px;
 }
 
 @media only screen and (max-width: 940px) {
