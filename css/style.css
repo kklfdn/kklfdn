@@ -285,6 +285,11 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
 }
 
+.primary-nav ul ul li a:hover {
+    color: #4b5766;
+    margin-left: 0.2em;
+}
+
 .nav-wrapper {
     width: 100vw;
     height: 70vh;
