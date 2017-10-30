@@ -219,6 +219,74 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* navigation */
+.primary-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 75px;
+    background-color: rgba(255,255,255,0.95);
+    z-index: 999;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    overflow: scroll;
+}
+
+.primary-nav.is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    /* transform: translateY(0); */
+}
+
+.primary-nav ul {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 2em;
+}
+
+.primary-nav ul li {
+    font-family: Oswald;
+    text-transform: uppercase;
+    color: #a7a9ac;
+    font-size: 0.8em;
+    line-height: 1.1em;
+    margin-bottom: 1em;
+}
+
+.primary-nav ul ul li {
+    font-family: Lato;
+    margin-bottom: 0.6em;
+    text-transform: none;
+    font-size: 1.3em;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+}
+
+.primary-nav ul ul li a {
+    color: #d71920;
+    border: none;
+}
+
+.nav-wrapper {
+    width: 100vw;
+    height: 70vh;
+    padding: 5rem 0;
+}
+
 /* nav button */
 .primary-nav-trigger {
     position: absolute;
