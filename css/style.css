@@ -64,6 +64,12 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0;
 }
 
+@media only screen and (min-width: 40.063em) {
+    h1 {
+        font-size: 2.3125rem;
+    }
+}
+
 #header {
     height: 75px;
     background: #fff;
@@ -740,6 +746,12 @@ footer {
     font-size: 64px;
     color: white;
     line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .king-banner h1 {
+        font-size: 52px;
+    }
 }
 
 .king-banner h1 span {
