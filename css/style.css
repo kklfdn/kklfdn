@@ -742,7 +742,7 @@ footer {
 }
 
 .king-banner h1 {
-    font-family: 'Liberal', Georgia, serif;
+    font-weight: 700;
     font-size: 64px;
     color: white;
     line-height: 1.2;
