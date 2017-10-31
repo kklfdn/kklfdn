@@ -735,6 +735,23 @@ footer {
     position: relative;
 }
 
+.king-banner h1 {
+    font-family: 'Liberal', Georgia, serif;
+    font-size: 64px;
+    color: white;
+    line-height: 1.2;
+}
+
+.king-banner h1 span {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-bottom: 3px;
+    display: block;
+}
+
 .overlay-dark {
     position: absolute;
     top: 0;
@@ -752,4 +769,43 @@ footer {
     background: -ms-linear-gradient(top, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.5) 100%);
     background: linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 0%, rgba(34, 34, 34, 0.5) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000',GradientType=0);
+}
+
+.content-block {
+    z-index: 2;
+    position: relative;
+}
+
+.king-banner .white-line {
+    margin: 15px auto;
+    width: 0;
+}
+
+.white-line {
+    width: 100px;
+    border-top: solid 5px white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.king-banner ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.king-banner ul li {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.king-banner ul li a {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-bottom: 3px;
 }
