@@ -742,6 +742,7 @@ footer {
 }
 
 .king-banner h1 {
+    font-family: "utopia-std-display", Georgia, sans-serif;
     font-weight: 700;
     font-size: 64px;
     color: white;
