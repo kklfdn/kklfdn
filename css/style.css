@@ -822,3 +822,7 @@ footer {
     letter-spacing: 2px;
     padding-bottom: 3px;
 }
+
+.king-banner ul li a:hover {
+    border-bottom: solid 5px white;
+}
