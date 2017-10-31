@@ -753,12 +753,6 @@ footer {
     line-height: 1.2;
 }
 
-@media (max-width: 768px) {
-    .king-banner h1 {
-        font-size: 52px;
-    }
-}
-
 .king-banner h1 span {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -817,9 +811,15 @@ footer {
     display: inline-block;
 }
 
-@media (max-width: 768px) .king-banner ul li {
-    margin: 5px 0 0 0;
-    display: block;
+@media (max-width: 768px) {
+    .king-banner h1 {
+        font-size: 52px;
+    }
+    
+    .king-banner ul li {
+        margin: 5px 0 0 0;
+        display: block;
+    }
 }
 
 .king-banner ul li a {
