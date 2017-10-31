@@ -826,3 +826,15 @@ footer {
 .king-banner ul li a:hover {
     border-bottom: solid 5px white;
 }
+
+/* Meet King contents */
+.meet-king-wrapper section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.meet-king-wrapper section#intro {
+    padding-top: 80px;
+}
