@@ -855,3 +855,11 @@ footer {
     font-weight: 900;
     letter-spacing: 2px;
 }
+
+.meet-king-wrapper section#teacher {
+    padding-top: 0;
+    padding-bottom: 700px;
+    background: no-repeat center bottom none;
+    background-size: 100%;
+    background-image: url('http://kkl.soundllp.com/images/meet-king-oxon-paint.jpg');
+}
