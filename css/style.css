@@ -394,6 +394,12 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
 }
 
+.column.small-centered, .columns.small-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
 @media only screen and (min-width: 64.063em) {
     .column, .columns {
         position: relative;
@@ -828,6 +834,12 @@ footer {
 }
 
 /* Meet King contents */
+.meet-king-wrapper h2 {
+    font-family: "utopia-std-display", Georgia, serif;
+    font-size: 42px;
+    font-weight: 300;
+}
+
 .meet-king-wrapper p {
     font-family: inherit;
     font-weight: normal;
@@ -842,6 +854,26 @@ footer {
     padding-bottom: 40px;
     padding-left: 15%;
     padding-right: 15%;
+}
+
+.meet-king-wrapper blockquote {
+    font-family: 'Lato', serif;
+    margin-left: 0;
+    padding-left: 0;
+    color: white;
+    font-size: 32px;
+    border-left: none;
+    line-height: 1.2;
+}
+
+.meet-king-wrapper blockquote citation {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 15px;
 }
 
 .meet-king-wrapper section#intro {
