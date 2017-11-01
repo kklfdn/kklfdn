@@ -863,3 +863,16 @@ footer {
     background-size: 100%;
     background-image: url('http://kkl.soundllp.com/images/meet-king-oxon-paint.jpg');
 }
+
+@media (max-width: 1200px) {
+    .meet-king-wrapper section#teacher {
+        padding-bottom: 650px;
+    }
+}
+
+@media (max-width: 768px) {
+    .meet-king-wrapper section#teacher {
+        padding-bottom: 500px;
+    }
+}
+
