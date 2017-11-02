@@ -65,6 +65,28 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.button, button {
+    padding: 0.4em 0.6em;
+    border: none;
+    line-height: 1.2em;
+    font-family: 'Lato';
+    display: inline-block;
+    overflow: hidden;
+    width: auto;
+    color: #fff;
+    background-color: #d71920;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -40px 0px;
+    text-decoration: none;
+    border-bottom: none;
+    border-radius: 3px;
+}
+
+.button:hover, ul.share-buttons a:hover {
+    background: #b11116;
+}
+
 #header {
     height: 75px;
     background: #fff;
@@ -670,6 +692,15 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding: 0;
     margin-top: 1em;
+}
+
+.donate-block .button {
+    margin-bottom: 0;
+    font-weight: 900;
+    font-size: 1.2rem;
+    border: 2px solid #d71920;
+    background: none;
+    color: #d71920;
 }
 
 /* footer */
