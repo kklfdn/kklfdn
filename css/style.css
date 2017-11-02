@@ -890,6 +890,10 @@ footer {
     float: left;
 }
 
+.right-media {
+    float: right;
+}
+
 .meet-king-wrapper h2 {
     font-family: "utopia-std-display", Georgia, serif;
     font-size: 42px;
