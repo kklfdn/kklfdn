@@ -87,6 +87,13 @@ h1, h2, h3, h4, h5, h6 {
     background: #b11116;
 }
 
+blockquote.inline-quote {
+    font-size: 22px;
+    font-style: italic;
+    padding: 25px;
+    color: #58595b;
+}
+
 #header {
     height: 75px;
     background: #fff;
@@ -871,6 +878,15 @@ footer {
 }
 
 /* Meet King contents */
+.media {
+    max-width: 400px;
+    padding: 0px 20px 20px 0;
+}
+
+.left-media {
+    float: left;
+}
+
 .meet-king-wrapper h2 {
     font-family: "utopia-std-display", Georgia, serif;
     font-size: 42px;
@@ -942,6 +958,10 @@ footer {
 @media (max-width: 768px) {
     .meet-king-wrapper section#wanderer {
         padding-bottom: 500px;
+    }
+    
+    .meet-king-wrapper blockquote {
+        font-size: 26px;
     }
 }
 
