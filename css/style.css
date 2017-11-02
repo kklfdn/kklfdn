@@ -888,7 +888,7 @@ footer {
     letter-spacing: 2px;
 }
 
-.meet-king-wrapper section#teacher {
+.meet-king-wrapper section#wanderer {
     padding-top: 0;
     padding-bottom: 950px;
     background: no-repeat center bottom none;
@@ -897,13 +897,13 @@ footer {
 }
 
 @media (max-width: 1200px) {
-    .meet-king-wrapper section#teacher {
+    .meet-king-wrapper section#wanderer {
         padding-bottom: 650px;
     }
 }
 
 @media (max-width: 768px) {
-    .meet-king-wrapper section#teacher {
+    .meet-king-wrapper section#wanderer {
         padding-bottom: 500px;
     }
 }
