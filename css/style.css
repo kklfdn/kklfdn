@@ -92,13 +92,6 @@ img {
     background: #b11116;
 }
 
-blockquote.inline-quote {
-    font-size: 22px;
-    font-style: italic;
-    padding: 25px;
-    color: #58595b;
-}
-
 #header {
     height: 75px;
     background: #fff;
@@ -932,6 +925,13 @@ footer {
     letter-spacing: 2px;
     display: block;
     margin-top: 15px;
+}
+
+.meet-king-wrapper blockquote.inline-quote {
+    font-size: 22px;
+    font-style: italic;
+    padding: 25px;
+    color: #58595b;
 }
 
 .meet-king-wrapper section#intro {
