@@ -70,6 +70,11 @@ img {
     }
 }
 
+blockquote {
+    margin: 1.5em 0;
+    padding: 1em 0;
+}
+
 .button, button {
     padding: 0.4em 0.6em;
     border: none;
