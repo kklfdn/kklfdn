@@ -779,7 +779,6 @@ footer {
 /* Meet HM King */
 .king-banner {
     background: no-repeat center center fixed;
-    background-image: url('http://kkl.soundllp.com/images/meet-king-flavelle-1.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -787,6 +786,7 @@ footer {
     padding-top: 170px;
     padding-bottom: 170px;
     position: relative;
+    background-image: url('http://kkl.soundllp.com/images/meet-king-flavelle-1.jpg');
 }
 
 @media (max-width: 768px) {
