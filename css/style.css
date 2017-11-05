@@ -787,8 +787,10 @@ footer {
     padding-bottom: 170px;
     position: relative;
     background-image: url('http://kkl.soundllp.com/images/meet-king-flavelle-1.jpg');
-    
-    @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
+    .king-banner {
         padding-top: 50px;
         padding-bottom: 50px;
         background-attachment: scroll;
