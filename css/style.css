@@ -999,6 +999,12 @@ footer {
     position: relative;
 }
 
+@media (max-width: 768px) {
+    .king-banner-content {
+        background-attachment: scroll;
+    }
+}
+
 .kk-leung-sig {
     display: block;
     margin: 1em auto;
