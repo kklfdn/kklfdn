@@ -863,6 +863,10 @@ footer {
     display: inline-block;
 }
 
+.king-banner ul li:last-child {
+    margin-right: 0;
+}
+
 @media (max-width: 768px) {
     .king-banner h1 {
         font-size: 52px;
