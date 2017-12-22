@@ -1086,3 +1086,18 @@ footer {
     background-size: cover;
     position: relative;
 }
+
+.highlight-box h3 {
+    padding: 25px 40px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.highlight-box h3:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
