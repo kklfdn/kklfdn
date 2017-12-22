@@ -464,31 +464,6 @@ blockquote {
     float: none;
 }
 
-@media only screen and (min-width: 64.063em) {
-    .column, .columns {
-        position: relative;
-        padding-left: 1em;
-        padding-right: 1em;
-        float: left;
-    }
-      
-    .large-3 {
-        width: 25%;
-    }
-    
-    .pull-5 {
-        position: relative;
-        right: 41.66667%;
-        left: auto;
-    }
-    
-    .push-8 {
-        position: relative;
-        left: 66.66667%;
-        right: auto;
-    }
-}
-
 @media only screen and (min-width: 40.063em) {
     .column, .columns {
         position: relative;
@@ -515,6 +490,31 @@ blockquote {
         left: auto;
     }
 
+    .push-8 {
+        position: relative;
+        left: 66.66667%;
+        right: auto;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .column, .columns {
+        position: relative;
+        padding-left: 1em;
+        padding-right: 1em;
+        float: left;
+    }
+      
+    .large-3 {
+        width: 25%;
+    }
+    
+    .pull-5 {
+        position: relative;
+        right: 41.66667%;
+        left: auto;
+    }
+    
     .push-8 {
         position: relative;
         left: 66.66667%;
