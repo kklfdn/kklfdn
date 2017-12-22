@@ -1036,7 +1036,7 @@ footer {
 /* King's Values page */
 .king-val-hero {
     position: relative;
-    background: no-repeat center center fixed;
+    background: no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1044,4 +1044,13 @@ footer {
     padding-top: 170px;
     padding-bottom: 170px;
     background-image: url('http://kkl.soundllp.com/images/king-val-banner.jpg'); /* 2020 Visionary */
+}
+
+.king-val-hero-question {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 350px;
 }
