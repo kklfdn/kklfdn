@@ -728,6 +728,13 @@ blockquote {
     color: #fff;
 }
 
+.donate-block .donor-logo {
+    margin: 0 auto 1em;
+    display: block;
+    max-width: 300px;
+    width: 100%;
+}
+
 /* footer */
 footer {
     background-color: #ffffff;
