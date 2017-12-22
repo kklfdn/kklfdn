@@ -1064,3 +1064,25 @@ footer {
     font-weight: 900;
     line-height: 1;
 }
+
+.king-val-highlights:after {
+    clear: both;
+}
+
+.king-val-highlights:before, .king-val-highlights:after {
+    content: " ";
+    display: table;
+}
+
+.highlight-box {
+    width: 33.33%;
+    display: block;
+    float: left;
+    height: 250px;
+    background: no-repeat center center none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
