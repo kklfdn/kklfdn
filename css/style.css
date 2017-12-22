@@ -945,6 +945,10 @@ footer {
     float: right;
 }
 
+.vertical-photos img {
+    margin-bottom: 25px;
+}
+
 .meet-king-wrapper h2 {
     font-family: "utopia-std-display", Georgia, serif;
     font-size: 42px;
