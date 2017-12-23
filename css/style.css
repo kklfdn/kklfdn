@@ -1194,7 +1194,11 @@ footer {
     }
 }
 
-@media only screen and (max-width: 64.063em) { 
+@media only screen and (max-width: 64.063em) {
+    .register-hero {
+        background: none;
+    }
+    
     .register-wrapper {
         position: static;
         width: 100%;
