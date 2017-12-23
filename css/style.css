@@ -1082,10 +1082,11 @@ footer {
     padding-top: 75px;
     padding-bottom: 75px;
     text-align: center;
-    max-width: 900px;
+    /* max-width: 900px; */
     margin: 0 auto;
     min-height: 350px;
-    background: no-repeat center right;
+    background-repeat: no-repeat;
+    background-position: center right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
