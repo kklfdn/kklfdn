@@ -1076,12 +1076,6 @@ footer {
 /* King's Values page */
 .king-val-hero {
     position: relative;
-    background: no-repeat center right;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-image: url('http://kkl.soundllp.com/images/king-val-banner.jpg'); /* 2020 Visionary */
 }
 
 .king-val-question {
@@ -1091,6 +1085,12 @@ footer {
     max-width: 900px;
     margin: 0 auto;
     min-height: 350px;
+    background: no-repeat center right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('http://kkl.soundllp.com/images/king-val-banner.jpg'); /* 2020 Visionary */
 }
 
 #king-val-question-label {
