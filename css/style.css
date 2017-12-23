@@ -1178,3 +1178,27 @@ footer {
     box-shadow: 2px 5px 60px 0px rgba(0, 0, 0, 1);
     max-width: 529px;
 }
+
+.register-wrapper h1 {
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: normal;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    cursor: default;
+    letter-spacing: 0;
+    color: #d71920;
+    text-align: center;
+    padding: 0.2em;
+    margin: 0 0 0.5em;
+}
+
+.register-wrapper h2 {
+    cursor: default;
+    color: #58595c;
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-family: Lato;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
