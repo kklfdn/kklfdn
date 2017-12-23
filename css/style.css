@@ -1031,13 +1031,13 @@ footer {
 
 @media (max-width: 1200px) {
     .meet-king-wrapper section#wanderer {
-        padding-bottom: 650px;
+        padding-bottom: 575px;
     }
 }
 
 @media (max-width: 768px) {
     .meet-king-wrapper section#wanderer {
-        padding-bottom: 500px;
+        padding-bottom: 425px;
     }
     
     .meet-king-wrapper blockquote {
