@@ -1165,9 +1165,9 @@ footer {
 .register-hero {
     background-color: #000000;
     background-image: url('http://kkl.soundllp.com/images/king-slay.png');
-    background-attachment: fixed;
     background-size: cover;
-    padding: 0 170px;
+    background-position: bottom right;
+    padding: 170px 0;
 }
 
 .register-wrapper {
