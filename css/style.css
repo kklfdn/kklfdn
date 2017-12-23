@@ -1192,7 +1192,9 @@ footer {
     .register-hide-large {
         display: none;
     }
-    
+}
+
+@media only screen and (max-width: 64.063em) { 
     .register-wrapper {
         position: static;
         width: 100%;
