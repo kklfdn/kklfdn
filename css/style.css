@@ -953,6 +953,11 @@ footer {
     margin-bottom: 25px;
 }
 
+.media-row {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
 .meet-king-wrapper h2 {
     font-family: "utopia-std-display", Georgia, serif;
     font-size: 42px;
