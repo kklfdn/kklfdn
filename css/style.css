@@ -1173,7 +1173,8 @@ footer {
 .register-hide-large {
     width: 100%;
     height: 300px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: bottom right;
     position: relative;
     background-image: url('http://kkl.soundllp.com/images/king-slay-cropped.png');
@@ -1196,7 +1197,7 @@ footer {
 
 @media only screen and (max-width: 64.063em) {
     .register-hero {
-        background: none;
+        background: #000000;
     }
     
     .register-wrapper {
