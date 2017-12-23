@@ -1200,6 +1200,9 @@ footer {
         width: 100%;
         margin: 0;
         background: #ffffff;
+        border: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
     }
 }
 
