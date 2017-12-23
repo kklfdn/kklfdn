@@ -1164,8 +1164,9 @@ footer {
 /* Register page */
 .register-hero {
     background-color: #000000;
-    background-image: url('http://kkl.soundllp.com/images/king-slay.png');
-    background-size: cover;
+    background-image: url('http://kkl.soundllp.com/images/king-slay-cropped.png');
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: bottom right;
     padding: 75px 0;
 }
