@@ -1167,6 +1167,7 @@ footer {
     background-image: url('http://kkl.soundllp.com/images/king-slay.png');
     background-attachment: fixed;
     background-size: cover;
+    padding: 0 170px;
 }
 
 .register-wrapper {
