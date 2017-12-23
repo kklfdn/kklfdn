@@ -1110,6 +1110,13 @@ footer {
     padding: 30px;
 }
 
+@media only screen and (max-width: 40.063em) {
+    #king-val-question-label {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+
 .king-val-highlights:after {
     clear: both;
 }
