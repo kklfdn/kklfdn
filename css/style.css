@@ -1170,6 +1170,15 @@ footer {
     background-image: url('http://kkl.soundllp.com/images/king-slay-cropped.png');
 }
 
+.register-hide-large {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: bottom right;
+    position: relative;
+    background-image: url('http://kkl.soundllp.com/images/king-slay-cropped.png');
+}
+
 .register-wrapper {
     background-color: #ffffff;
     margin: 4em 0;
@@ -1177,6 +1186,18 @@ footer {
     border-radius: 4px;
     box-shadow: 2px 5px 60px 0px rgba(0, 0, 0, 1);
     max-width: 529px;
+}
+
+@media only screen and (min-width: 64.063em) {
+    .register-hide-large {
+        display: none;
+    }
+    
+    .register-wrapper {
+        position: static;
+        width: 100%;
+        margin: 0;
+    }
 }
 
 .register-wrapper h1 {
