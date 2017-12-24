@@ -109,6 +109,22 @@ blockquote {
     }
 }
 
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select, textarea {
+    background-color: #fff;
+    border: 1px solid #6d6e70;
+    font-family: Lato;
+    font-weight: 300;
+    color: #6d6e70;
+    padding: 6px 10px;
+    height: 2em !important;
+    border-radius: 4px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+    outline: 0;
+}
+
 .button, button {
     padding: 0.4em 0.6em;
     border: none;
@@ -1237,4 +1253,5 @@ footer {
     font-family: Lato;
     text-align: center;
     text-rendering: optimizeLegibility;
+    text-transform: none;
 }
