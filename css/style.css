@@ -1258,3 +1258,16 @@ footer {
     text-rendering: optimizeLegibility;
     text-transform: none;
 }
+
+#register-button {
+    margin: 0;
+    border: none;
+    background-color: #d71920;
+    color: #fff;
+    font-weight: bold;
+    white-space: normal;
+}
+
+#register-button:hover {
+    background-color: #b11116;
+}
