@@ -1315,6 +1315,7 @@ footer {
     font-weight: bold;
     background: none;
     border: 2px solid #d71920;
+    color: #d71920;
 }
 
 #donate-button:hover {
