@@ -825,6 +825,12 @@ footer {
     }
 }
 
+@media only screen and (min-width: 64.063em) {
+    .large-6 {
+        width: 50%;
+    }
+}
+
 #new-day-for-flavelle .logo {
     width: 150px;
     max-width: 100%;
@@ -1285,4 +1291,8 @@ footer {
     background-size: cover;
     min-height: 1000px;
     background-color: #f1f2f2;
+}
+
+#donate-box {
+    
 }
