@@ -1355,12 +1355,13 @@ footer {
 .tax-credits-infobox {
     background: rgba(255, 255, 255, 0.7);
     border: 2px solid #d1d3d4;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     padding: 10px;
 }
 
 .tax-credits-infobox p {
     line-height: normal;
+    margin: 0;
 }
 
 #donate-button {
