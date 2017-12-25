@@ -1359,6 +1359,10 @@ footer {
     padding: 10px;
 }
 
+.tax-credits-infobox p {
+    line-height: normal;
+}
+
 #donate-button {
     font-weight: bold;
     background: none;
@@ -1370,4 +1374,8 @@ footer {
 #donate-button:hover {
     background: #d71920;
     color: #ffffff;
+}
+
+.donate-form span {
+    float: left;
 }
