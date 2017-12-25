@@ -288,6 +288,18 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     color: #d71920;
 }
 
+#header .left-side ul li {
+    width: 33.33%;
+    list-style: none;
+    float: left;
+}
+
+#header .right-side a {
+    margin: 0 0.4em;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
 #header .home-link div {
     background-color: #d71920;
 }
@@ -594,18 +606,6 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     .main-content-wrapper {
         padding: 0 20px 2em;
     }
-}
-
-#header .left-side ul li {
-    width: 33.33%;
-    list-style: none;
-    float: left;
-}
-
-#header .right-side a {
-    margin: 0 0.4em;
-    font-weight: 900;
-    font-size: 1.1em;
 }
 
 /* banner */
