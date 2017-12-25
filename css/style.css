@@ -1305,7 +1305,7 @@ footer {
     margin: 40px 0;
 }
 
-.donate-form-upper {
+.donate-form-upper, .donate-form-lower {
     position: relative;
     padding: 30px;
     background-color: #fff;
@@ -1313,7 +1313,5 @@ footer {
 }
 
 .donate-form-lower {
-    padding: 30px;
-    position: relative;
     background-color: rgba(255, 255, 255, 0.7);
 }
