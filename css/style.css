@@ -1312,6 +1312,13 @@ footer {
     box-shadow: 2px 5px 60px -5px rgba(0, 0, 0, 1);
 }
 
+.tax-credits-infobox {
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px solid #d1d3d4;
+    margin-bottom: 1rem;
+    padding: 10px;
+}
+
 #donate-button {
     font-weight: bold;
     background: none;
