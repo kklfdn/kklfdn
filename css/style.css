@@ -295,6 +295,10 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     background-color: #b11116;
 }
 
+#header a.volunteer:hover {
+    color: #b11116;
+}
+
 #header .middle {
     height: 100%;
     text-align: center;
