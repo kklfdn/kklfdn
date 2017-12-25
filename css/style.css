@@ -95,7 +95,7 @@ blockquote {
         line-height: 1.2;
     }
     
-    h1 {
+    h1, #king-val-question-label h1 {
         font-size: 2.3125rem;
     }
     
