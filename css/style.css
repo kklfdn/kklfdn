@@ -1260,6 +1260,10 @@ footer {
     text-transform: none;
 }
 
+#register-form input {
+    font-size: 1rem;
+}
+
 #register-button {
     margin: 0;
     border: none;
