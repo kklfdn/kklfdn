@@ -1238,6 +1238,12 @@ footer {
     -webkit-transition: all .2s ease-in-out;
 }
 
+@media only screen and (max-width: 40.063em) {
+    .highlight-box h3 {
+        font-size: 1.4375rem;
+    }
+}
+
 /* Register page */
 .register-hero {
     background-color: #000000;
