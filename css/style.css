@@ -1276,3 +1276,13 @@ footer {
 #register-button:hover {
     background-color: #b11116;
 }
+
+/* Donate page */
+.donate-hero {
+    background-image: url('http://kkl.soundllp.com/images/king-donate-bg-wide.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    min-height: 1000px;
+    background-color: #f1f2f2;
+}
