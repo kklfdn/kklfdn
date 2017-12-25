@@ -1274,7 +1274,7 @@ footer {
     font-size: 1rem;
 }
 
-#register-button {
+#register-button, #donate-button {
     margin: 0;
     border: none;
     background-color: #d71920;
