@@ -1440,3 +1440,12 @@ footer {
         font-size: 1.125rem;
     }
 }
+
+.framed {
+    line-height: 0;
+    display: inline-block;
+    border: solid 4px white;
+    max-width: 100%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
