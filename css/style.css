@@ -1287,12 +1287,16 @@ footer {
 .donate-hero {
     background-image: url('http://kkl.soundllp.com/images/king-donate-bg-wide.jpg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 800px;
     background-color: #f1f2f2;
 }
 
 #donate-box {
-    
+    float: right;
+}
+
+.donate-form-container {
+    margin: 40px 0;
 }
