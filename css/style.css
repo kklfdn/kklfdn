@@ -1422,6 +1422,11 @@ footer {
     margin: 0;
 }
 
+.thank-you-content {
+    background-color: #fff;
+    padding: 2em 1em 4em;
+}
+
 .thank-you-content h3 {
     font-weight: 400;
     font-size: 1.4375rem;
