@@ -1338,6 +1338,16 @@ footer {
     background-color: #f1f2f2;
 }
 
+.donate-hide-large {
+    display: none;
+}
+
+@media only screen and (max-width: 40.063em) {
+    .donate-hide-large {
+        display: block;
+    }
+}
+
 #donate-box {
     float: right;
 }
