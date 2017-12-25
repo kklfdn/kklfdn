@@ -1407,3 +1407,17 @@ footer {
         box-shadow: none;
     }
 }
+
+/* Thank you page */
+.thank-you-title {
+    background-color: #3d4f5d;
+}
+
+.thank-you-title h1 {
+    color: #fff;
+    font-size: 2em;
+    font-family: Oswald;
+    text-transform: uppercase;
+    padding: 0.5em 0 0.4em;
+    margin: 0;
+}
