@@ -599,6 +599,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     }
 }
 
+.content-wrapper {
+    background-color: #fff;
+    padding: 2em 1em 4em;
+}
+
 /* banner */
 .banner-image {
     min-height: 400px;
