@@ -1403,5 +1403,6 @@ footer {
     
     .donate-form-container {
         margin: 0;
+        box-shadow: none;
     }
 }
