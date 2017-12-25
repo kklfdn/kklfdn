@@ -1389,7 +1389,7 @@ footer {
 @media only screen and (max-width: 40.063em) {
     .donate-hero {
         background: none;
-        min-height: none;
+        min-height: 0;
     }
     
     .donate-hide-large {
