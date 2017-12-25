@@ -1274,7 +1274,7 @@ footer {
     font-size: 1rem;
 }
 
-#register-button, #donate-button {
+#register-button {
     margin: 0;
     border: none;
     background-color: #d71920;
@@ -1309,4 +1309,15 @@ footer {
     background-color: rgba(255, 255, 255, 0.7);
     text-align: left;
     box-shadow: 2px 5px 60px -5px rgba(0, 0, 0, 1);
+}
+
+#donate-button {
+    font-weight: bold;
+    background: none;
+    border: 2px solid #d71920;
+}
+
+#donate-button:hover {
+    background: #d71920;
+    color: #ffffff;
 }
