@@ -1395,6 +1395,11 @@ footer {
         display: inherit;
     }
     
+    #donate-box {
+        margin: 0;
+        padding: 0;
+    }
+    
     .donate-form-container {
         margin: 0;
     }
