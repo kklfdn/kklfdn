@@ -829,6 +829,12 @@ footer {
 }
 
 @media only screen and (min-width: 64.063em) {
+    .column.large-centered, .columns.large-centered {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
     .large-6 {
         width: 50%;
     }
