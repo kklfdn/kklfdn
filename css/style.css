@@ -313,6 +313,25 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     background-color: #b11116;
 }
 
+#header a.lang-switch {
+    color: #58595c;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    right: 45px;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    margin: 0;
+    padding-top: 23px;
+    text-align: center;
+}
+
+#header a.lang-switch:hover {
+    color: #a7a9ac;
+}
+
 #header .middle {
     height: 100%;
     text-align: center;
