@@ -1342,12 +1342,6 @@ footer {
     display: none;
 }
 
-@media only screen and (max-width: 40.063em) {
-    .donate-hide-large {
-        display: block;
-    }
-}
-
 #donate-box {
     float: right;
 }
@@ -1390,4 +1384,18 @@ footer {
 .donate-form span {
     float: left;
     margin: 5px;
+}
+
+@media only screen and (max-width: 40.063em) {
+    .donate-hero {
+        background: none;
+    }
+    
+    .donate-hide-large {
+        display: inherit;
+    }
+    
+    .donate-form-container {
+        margin: 0;
+    }
 }
