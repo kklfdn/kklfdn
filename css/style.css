@@ -1482,7 +1482,7 @@ footer {
     padding: 4rem 0;
 }
 
-.team-hero h1, .team-hero h2, .team-hero p {
+.team-hero h1, .team-hero h2 {
     color: #ffffff;
     text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
@@ -1498,6 +1498,10 @@ footer {
 .team-hero h2 {
     font-family: 'Lato';
     text-transform: none;
+}
+
+.team-hero p {
+    text-shadow: 0 0 20px #000;
 }
 
 .typed-cursor {
