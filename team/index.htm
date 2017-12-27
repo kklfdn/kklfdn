@@ -31,14 +31,18 @@
               $(".menu-icon").toggleClass("is-clicked");
               $("body").toggleClass("overflow-hidden");
             });
+          });
           
-          var options = {
-              strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-              typeSpeed: 40
-          }
+          $(window).load(function(){
+              var options = {
+                strings: ["fellow students.", "all of us."],
+                typeSpeed: 40,
+                loop: false,
+                loopCount: Infinity
+              }
           
-          var typed = new Typed(".typewriter", options);
-        });
+              var typed = new Typed(".typewriter", options);
+          });
     </script>
   </head>
   <body>
