@@ -1525,6 +1525,11 @@ footer {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.team-hero-bottom .button:hover {
+    border: 2px solid #d71920;
+    color: #d71920;
+}
+
 .typed-cursor {
     opacity: 1;
     font-weight: 100;
