@@ -1479,7 +1479,9 @@ footer {
 }
 
 @media only screen and (min-width: 75em) {
-    background-position: center;
+    .team-hero {
+        background-position: center;
+    }
 }
 
 .team-hero-top {
