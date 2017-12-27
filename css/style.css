@@ -1529,6 +1529,8 @@ footer {
     color: #ffffff;
     background: rgba(0, 0, 0, 0.5);
     margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 900;
 }
 
 .team-hero-bottom .button:hover {
