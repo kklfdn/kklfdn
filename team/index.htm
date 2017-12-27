@@ -24,26 +24,21 @@
       
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="/typed.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $(".primary-nav-trigger").click(function() {
-          $(".primary-nav").toggleClass("is-visible");
-          $(".menu-icon").toggleClass("is-clicked");
-          $("body").toggleClass("overflow-hidden");
-        });
+      <script type="text/javascript">
+          $(document).ready(function(){
+            $(".primary-nav-trigger").click(function() {
+              $(".primary-nav").toggleClass("is-visible");
+              $(".menu-icon").toggleClass("is-clicked");
+              $("body").toggleClass("overflow-hidden");
+            });
           
           var options = {
-             strings: ["fellow students.", "all of us."],
+              strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
               typeSpeed: 40
-            };
+          }
           
-          var options = {
-  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-  typeSpeed: 40
-}
-
-	var typed = new Typed(".typewriter", options);
-      });
+          var typed = new Typed(".typewriter", options);
+        });
     </script>
   </head>
   <body>
