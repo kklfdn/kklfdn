@@ -1475,7 +1475,7 @@ footer {
     box-shadow: 0px 0px 150px #000 inset;
     color: #fff;
     background-position: bottom;
-    min-height: 600px;
+    /* min-height: 600px; */
 }
 
 @media only screen and (min-width: 75em) {
@@ -1484,8 +1484,13 @@ footer {
     }
 }
 
-.team-hero-top, .team-hero-bottom {
+.team-hero-top {
     padding: 4rem 0;
+}
+
+.team-hero-bottom {
+    padding-top: 12rem;
+    padding-bottom: 4rem;
 }
 
 .team-hero h1, .team-hero h2 {
