@@ -1475,3 +1475,15 @@ footer {
     color: #fff;
     background-position: center;
 }
+
+.team-hero-top {
+    padding: 4rem 0;
+}
+
+.team-hero h1 {
+    font-family: 'Lato';
+    font-weight: 900;
+    text-transform: none;
+    margin-bottom: 0;
+    line-height: 1.1;
+}
