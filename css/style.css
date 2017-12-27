@@ -1484,7 +1484,7 @@ footer {
     }
 }
 
-.team-hero-top {
+.team-hero-top, .team-hero-bottom {
     padding: 4rem 0;
 }
 
@@ -1517,6 +1517,12 @@ footer {
     .team-hero h2 {
         font-size: 2rem;
     }
+}
+
+.team-hero-bottom .button {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .typed-cursor {
