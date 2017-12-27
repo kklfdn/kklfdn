@@ -1528,6 +1528,7 @@ footer {
     border: 2px solid #ffffff;
     color: #ffffff;
     background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
 }
 
 .team-hero-bottom .button:hover {
