@@ -1484,6 +1484,7 @@ footer {
 
 .team-hero h1, .team-hero h2 {
     color: #ffffff;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .team-hero h1 {
