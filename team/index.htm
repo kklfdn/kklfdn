@@ -23,6 +23,7 @@
     </script>
       
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="/typed.min.js" type="text/javascript"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         $(".primary-nav-trigger").click(function() {
@@ -30,17 +31,15 @@
           $(".menu-icon").toggleClass("is-clicked");
           $("body").toggleClass("overflow-hidden");
         });
-      });
-    </script>
-      <script src="/typed.min.js" type="text/javascript"></script>
-      <script type="text/javascript">
+          
           var options = {
              strings: ["fellow students.", "all of us."],
               typeSpeed: 40
             }
           
-          var typed = new Typed("#team-hero-subheading", options);
-      </script>
+          $("#team-hero-subheading").typed(options);
+      });
+    </script>
   </head>
   <body>
     <header id="header">
