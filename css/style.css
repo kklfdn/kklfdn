@@ -1481,10 +1481,19 @@ footer {
     padding: 4rem 0;
 }
 
+.team-hero h1, .team-hero h2 {
+    color: #ffffff;
+}
+
 .team-hero h1 {
     font-family: 'Lato';
     font-weight: 900;
     text-transform: none;
     margin-bottom: 0;
     line-height: 1.1;
+}
+
+.team-hero h2 {
+    font-family: 'Lato';
+    text-transform: none;
 }
