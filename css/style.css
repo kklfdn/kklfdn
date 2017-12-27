@@ -1484,7 +1484,7 @@ footer {
 
 .team-hero h1, .team-hero h2 {
     color: #ffffff;
-    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 30px #000000;
 }
 
 .team-hero h1 {
@@ -1501,7 +1501,7 @@ footer {
 }
 
 .team-hero p {
-    text-shadow: 0 0 20px #000;
+    text-shadow: 2px 2px 10px #000000;
 }
 
 .typed-cursor {
