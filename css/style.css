@@ -1482,7 +1482,7 @@ footer {
     padding: 4rem 0;
 }
 
-.team-hero h1, .team-hero h2 {
+.team-hero h1, .team-hero h2, .team-hero p {
     color: #ffffff;
     text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
