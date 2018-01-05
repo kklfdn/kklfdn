@@ -1002,6 +1002,8 @@ footer {
     font-weight: 900;
     letter-spacing: 2px;
     padding-bottom: 3px;
+    
+    display: none;
 }
 
 .king-banner ul li a:hover {
