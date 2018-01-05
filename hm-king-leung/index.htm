@@ -30,10 +30,10 @@
           $("body").toggleClass("overflow-hidden");
         });
           
-        $("#student-link").fadeIn(1000);
-        $("#wanderer-link").delay(1000).fadeIn(1000);
-        $("#advocate-link").delay(2000).fadeIn(1000);
-        $("#statesman-link").delay(3000).fadeIn(1000);
+        $("#student-link").fadeTo(1000, 1);
+        $("#wanderer-link").delay(1000).fadeTo(1000, 1);
+        $("#advocate-link").delay(2000).fadeTo(1000, 1);
+        $("#statesman-link").delay(3000).fadeTo(1000, 1);
           
         $(".king-banner ul li a").click(function () {
           var target = $(this.hash);
