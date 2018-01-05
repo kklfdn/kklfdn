@@ -30,6 +30,11 @@
           $("body").toggleClass("overflow-hidden");
         });
           
+        $("#student-link").fadeIn(1000);
+        $("#wanderer-link").delay(1000).fadeIn(1000);
+        $("#advocate-link").delay(2000).fadeIn(1000);
+        $("#statesman-link").delay(3000).fadeIn(1000);
+          
         $(".king-banner ul li a").click(function () {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -153,16 +158,16 @@
                               </div>
                               <ul>
                                   <li class="nav-links">
-                                      <a href="#student">Student</a>
+                                      <a id="student-link" href="#student">Student</a>
                                   </li>
                                   <li class="nav-links">
-                                      <a href="#wanderer">Wanderer</a>
+                                      <a id="wanderer-link" href="#wanderer">Wanderer</a>
                                   </li>
                                   <li class="nav-links">
-                                      <a href="#advocate">Advocate</a>
+                                      <a id="advocate-link" href="#advocate">Advocate</a>
                                   </li>
                                   <li class="nav-links">
-                                      <a href="#statesman">Statesman</a>
+                                      <a id="statesman-link" href="#statesman">Statesman</a>
                                   </li>
                               </ul>
                           </div>
