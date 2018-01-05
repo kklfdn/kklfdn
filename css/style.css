@@ -1003,7 +1003,7 @@ footer {
     letter-spacing: 2px;
     padding-bottom: 3px;
     
-    display: none;
+    opacity: 0;
 }
 
 .king-banner ul li a:hover {
