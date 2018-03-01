@@ -6,8 +6,12 @@
     left: 50%;
     margin-top: -100px;
     margin-left: -250px;
+    padding: 50px;
     text-align: center;
     z-index: 10001;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 4px;
+    box-shadow: 2px 5px 60px -5px rgba(0, 0, 0, 0.5);
 }
 
 #not-yet-overlay {
