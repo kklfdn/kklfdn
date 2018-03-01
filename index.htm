@@ -52,10 +52,12 @@
                 $("#not-yet-overlay").unwrap();
                 $("#not-yet-overlay-box").remove();
                 $("#not-yet-overlay").remove();
+                $("body").css("overflow","auto");
               }
             }, 1000);
         
       $(document).ready(function(){
+        $("body").css("overflow","hidden");
         $(".primary-nav-trigger").click(function() {
           $(".primary-nav").toggleClass("is-visible");
           $(".menu-icon").toggleClass("is-clicked");
