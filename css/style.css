@@ -22,7 +22,7 @@ body {
     letter-spacing: -0.03em;
 }
 
-body.not-yet {
+.not-yet {
     opacity: 0.5;
     filter: blur(20px);
     -webkit-filter: blur(20px);
