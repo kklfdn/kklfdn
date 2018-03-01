@@ -31,7 +31,7 @@
           $("body").toggleClass("overflow-hidden");
         });
           
-        var countDownDate = new Date("Mar 5, 2018 12:00:00").getTime();
+        var countDownDate = new Date("Mar 1, 2018 00:15:00").getTime(); //("Mar 5, 2018 12:00:00").getTime();
           
           // Update the count down every 1 second
           var x = setInterval(function() {
@@ -56,6 +56,8 @@
           if (distance < 0) {
             clearInterval(x);
             document.getElementById("timer").innerHTML = "SOUND";
+              $(".not-yet-overlay").unwrap();
+              $(".not-yet-overlay-box").remove();
           }
         }, 1000);
       });
