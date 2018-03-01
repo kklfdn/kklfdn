@@ -25,6 +25,15 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript">
           var countDownDate = new Date("Mar 1, 2018 00:23:00").getTime(); //new Date("Mar 5, 2018 12:00:00").getTime();
+        
+          if ((countDownDate - Date().getTime()) < 0)
+          {
+            $("#not-yet-overlay").unwrap();
+            $("#not-yet-overlay-box").remove();
+            $("#not-yet-overlay").remove();
+          }
+          else
+          {
           
           // Update the count down every 1 second
           var x = setInterval(function() {
@@ -54,6 +63,7 @@
                 $("#not-yet-overlay").remove();
               }
             }, 1000);
+          }
         
       $(document).ready(function(){
         $(".primary-nav-trigger").click(function() {
