@@ -1207,16 +1207,18 @@ footer {
     margin: 0 auto;
         
     /* transparency on box - may remove */
-    background-color: rgba(255, 255, 255, 0.65);
+    /* background-color: rgba(255, 255, 255, 0.65); */
     padding: 30px;
     border-radius: 4px;
+    z-index: 2;
+    color: #ffffff;
 }
 
 #king-val-question-label h1 {
     font-family: 'lato',sans-serif;
     text-transform: none;
     font-size: 42px;
-    color: #58595b;
+    color: #ffffff; /* color: #58595b; dark grey */
     font-weight: 900;
     line-height: 1;
 }
