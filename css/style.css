@@ -1629,17 +1629,15 @@ footer {
     background-color: #f1f2f2;
 }
 
-.endgame-hide-large {
-    display: none;
-}
-
 #endgame-box {
     float: left;
     margin: 40px 0;
     position: relative;
     padding: 30px;
-    border-radius: 4px;
     text-align: center;
+    max-width: 529px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 
 #endgame-box h1, #endgame-box h2 {
@@ -1662,41 +1660,7 @@ footer {
     font-size: 2.3rem;
 }
 
-#endgame-enter-button {
-    font-weight: bold;
-    background: none;
-    border: 2px solid #d71920;
-    color: #d71920;
-}
-
-#endgame-enter-button:hover {
-    background: #d71920;
-    color: #ffffff;
-}
-
 .endgame-form span {
     float: left;
     margin: 5px;
-}
-
-@media only screen and (max-width: 40.063em) {
-    .endgame-hero {
-        background: none;
-        min-height: 0;
-    }
-    
-    .endgame-hide-large {
-        display: inherit;
-        margin-bottom: -5px;
-    }
-    
-    #endgame-box {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .endgame-form-container {
-        margin: 0;
-        box-shadow: none;
-    }
 }
