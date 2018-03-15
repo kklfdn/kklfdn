@@ -1633,7 +1633,7 @@ footer {
     display: none;
 }
 
-.endgame-box {
+#endgame-box {
     float: left;
     margin: 40px 0;
     position: relative;
@@ -1642,7 +1642,7 @@ footer {
     text-align: center;
 }
 
-.endgame-box h1, .endgame-box h2 {
+#endgame-box h1, #endgame-box h2 {
     text-transform: uppercase;
     font-family: oswald;
     font-size: 3rem;
@@ -1657,7 +1657,7 @@ footer {
     text-shadow: 2px 5px 60px rgba(0, 0, 0, 1);
 }
 
-.endgame-box h2 {
+#endgame-box h2 {
     font-weight: 300;
     font-size: 2.3rem;
 }
