@@ -1618,3 +1618,71 @@ footer {
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+/* Thank you splash */
+.endgame-hero {
+    background-image: url('http://kkl.soundllp.com/images/king-thank-you-2018.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    min-height: 800px;
+    background-color: #f1f2f2;
+}
+
+.endgame-hide-large {
+    display: none;
+}
+
+#endgame-box {
+    float: right;
+}
+
+.endgame-form-container {
+    margin: 40px 0;
+    position: relative;
+    padding: 30px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    box-shadow: 2px 5px 60px -5px rgba(0, 0, 0, 1);
+}
+
+#endgame-enter-button {
+    font-weight: bold;
+    background: none;
+    border: 2px solid #d71920;
+    color: #d71920;
+    float: right;
+}
+
+#endgame-enter-button:hover {
+    background: #d71920;
+    color: #ffffff;
+}
+
+.endgame-form span {
+    float: left;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 40.063em) {
+    .endgame-hero {
+        background: none;
+        min-height: 0;
+    }
+    
+    .endgame-hide-large {
+        display: inherit;
+        margin-bottom: -5px;
+    }
+    
+    #endgame-box {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .endgame-form-container {
+        margin: 0;
+        box-shadow: none;
+    }
+}
