@@ -1635,16 +1635,11 @@ footer {
 
 #endgame-box {
     float: left;
-}
-
-.endgame-form-container {
     margin: 40px 0;
     position: relative;
     padding: 30px;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.7);
-    text-align: left;
-    box-shadow: 2px 5px 60px -5px rgba(0, 0, 0, 1);
+    text-align: center;
 }
 
 #endgame-enter-button {
