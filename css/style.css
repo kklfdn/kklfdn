@@ -1670,3 +1670,13 @@ footer {
         background-position-x: 80%;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    #endgame-box h1 {
+        font-size: 2.5rem;
+    }
+    
+    #endgame-box h2 {
+        font-size: 1.8rem;
+    }
+}
