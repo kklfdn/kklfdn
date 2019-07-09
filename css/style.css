@@ -1480,6 +1480,47 @@ footer {
     background-color: #f1f2f2;
 }
 
+.francais-page {
+    display: flex;
+    min-height: 75vh;
+}
+
+.francais-split-left {
+    width: 50%;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('http://kkl.soundllp.com/images/aix-en-provence.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #D41F27;
+    color: #fff;
+}
+
+.francais-split-right {
+    width: 50%;
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+@media (max-width: 40em) {
+    .francais-split-_left {
+        min-height: 300px;
+        display: block;
+        width: 100%;
+    }
+    
+    .francais-split-right {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
 /* Thank you page */
 .thank-you-title {
     background-color: #3d4f5d;
