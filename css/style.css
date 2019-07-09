@@ -1508,7 +1508,12 @@ footer {
 }
 
 @media (max-width: 40em) {
-    .francais-split-_left {
+    .split-page {
+        min-height: 0px;
+        display: block;
+    }
+    
+    .francais-split-left {
         min-height: 300px;
         display: block;
         width: 100%;
